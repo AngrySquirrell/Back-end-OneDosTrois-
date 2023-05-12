@@ -1,0 +1,7 @@
+{
+    "restartable": "rs",
+    "ignore": ["dist/"],
+    "watch": ["src/"],
+    "env": {},
+    "ext": "ts,json"
+}

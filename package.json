@@ -1,0 +1,25 @@
+{
+    "name": "back-end(onedostrois)",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon --exec npm run b",
+        "push": "git add * && git commit -m 'maj' && git push",
+        "build": "tsc",
+        "b": "tsc && node ./dist/main.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/node": "^20.1.2",
+        "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "nodemon": "^2.0.22",
+        "pocketbase": "^0.14.4",
+        "ts-node": "^10.9.1"
+    }
+}
